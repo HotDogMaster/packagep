@@ -16,7 +16,8 @@ font-family: 'Noto Serif KR', serif; */
 
 * {margin:0; padding:0;
    font-size: inherit;
-   font-weight: inherit;color:inherit}
+   font-weight: inherit;color:inherit;
+  }
 html{font-size:14px; line-height:1.15em;}
 body{ word-break: break-all;
       color:#333;
@@ -107,6 +108,7 @@ summary {
   display: list-item;
 }
 #wrap{ 
+  width: 100%;
   max-width: 768px;
   min-width: 320px;
   margin: 0 auto;

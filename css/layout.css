@@ -302,14 +302,108 @@ a .user_pic:active{
     display: none;
 }
 /* detail.html *********************************************************************************/
-#detail{
-    
+.td_wrap{
+    position: relative;
 }
-#detail img{
+.comp_img img{
     display: block;
     margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+}
+article.center{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.parcel_stat .flex{
+    box-shadow: 0 0 20px #999;
+    padding: 50px;
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+}
+.parcel_stat h1{
+    margin-bottom: 20px;
+}
+.parcel_stat h1,.parcel_stat h3{
+    display: block;
+}
+.ups{
+    text-align: center;
+    width: 100%;
+}
+.ups .uparrow{
+    margin-bottom: -20px;
+    animation-name: uparrows;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+.line img{
+    transform: translateY(-5px);
+}
+.detail2{
+    position: fixed;
+    text-align: center;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 708px;
+    margin: 0 auto;
+    /* margin-bottom: -383px; */
+}
+.detail_in_detail{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    background-color: #F9F9F9;
+    /* background-color: #999; */
+    height: 400px;
+}
+.dinfo{
+    width: 100%;
+    max-width: 500px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.dinfo h5{
+    text-align: left;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: calc(100%/2);
+    margin-bottom: 10px;
+}
+.blue{
+    color: #2196F3;
+}
+.gray{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.gray{
+    margin-right: 5px;
+    color: #999999;
 }
 
+/* keyframe ************************************************************************************/
+
+@-webkit-keyframes uparrows {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+  }
 /* mediaquery **********************************************************************************/
 @media all and (max-width:472px) {
     .small_parcel{
