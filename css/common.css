@@ -217,8 +217,15 @@ footer div{
   margin-top: 80px;
   margin-bottom: 60px;
 }
+article>.inner{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 .actbtn{
   position: relative;
+}
+.tracking_item .actbtn{
+  position: static;
 }
 .actbtn::before{
   content: "";

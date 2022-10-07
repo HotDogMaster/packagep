@@ -77,6 +77,11 @@
     justify-content: center;
     text-align: center;
 }
+#main_page .main_bot{
+    display: block;
+    min-height: 300px;
+    margin: auto;
+}
 #main_page .main_bot .flex{
     justify-content: space-around;
     text-align: center;
@@ -168,12 +173,12 @@
 }
 .user_bg{
     width: 100%;
-    height: 100px;
+    height: 180px;
     background-color: #00B2FF;
 }
 .user_pic{
     position: absolute;
-    top: 50px;
+    top: 130px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #ddd;
@@ -194,7 +199,7 @@ a .user_pic:active{
 }
 .user_name{
     position: absolute;
-    top: 180px;
+    top: 250px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -218,7 +223,7 @@ a .user_pic:active{
     margin-bottom: 16px;
 }
 .more_margin{
-    margin-top: 180px;
+    margin-top: 150px;
 }
 .more_option a{
     width: calc((100% - 20px)/2);
@@ -234,6 +239,9 @@ a .user_pic:active{
 }
 .more_option a div img{
     margin-right: 5px;
+}
+#more .inner{
+    margin-top: 0;
 }
 /* more.html ***********************************************************************/
 
