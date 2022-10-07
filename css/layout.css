@@ -64,12 +64,13 @@
     padding: 30px 10px;
 }
 #main_page .main_top .menu_wrap:active{
+    background-color: #999;
     box-shadow: none;
 }
-#main_page .main_top .menu_wrap.mm1{
+#main_page .main_top .menu_wrap.mm1, #main_page .main_top .menu_wrap.mm1:active{
     border-radius: 15px 0 0 15px;
 }
-#main_page .main_top .menu_wrap.mm2{
+#main_page .main_top .menu_wrap.mm2, #main_page .main_top .menu_wrap.mm2:active{
     border-radius: 0 15px 15px 0;
 }
 #main_page .main_top .menu_wrap .main_menu{
@@ -121,6 +122,9 @@
     height: 18px;
     margin-left: 2px;
     display: inline-block;
+}
+.tracking_item:active{
+    background-color: #999;
 }
 .tracking_item{
     width: 100%;
@@ -230,8 +234,8 @@ a .user_pic:active{
     padding: 5px;
 }
 .more_option a:active{
-    background-color: #999;
     border-radius: 15px;
+    background-color: #999;
 }
 .more_option a h5{
     display: block;
@@ -258,8 +262,14 @@ a .user_pic:active{
     justify-content: space-around;
     box-shadow: 0 4px 4px #888;
 }
+.normal_parcel:active{
+    background-color: #2196F3;
+}
 .normal_parcel h1{
     line-height: 80px;
+}
+.quick_service:active, .conv_service:active{
+    background-color: #999;
 }
 .small_parcel{
     width: calc((100% - 150px)/2);
@@ -326,7 +336,7 @@ article.center{
 }
 .parcel_stat .flex{
     box-shadow: 0 0 20px #999;
-    padding: 30px;
+    padding: 50px;
     border-radius: 50%;
     flex-direction: column;
     justify-content: center;
