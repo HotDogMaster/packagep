@@ -1,18 +1,20 @@
-#main_page{
-    max-height: 500px;
-}
 #main_page .main_top{
-    display: block;
     background-color: #00B2FF;
     max-width: 768px;
     padding: 12px 8px;
     border-radius: 0 0 15px 15px;
     box-shadow: 0 8px 4px -4px #888;
+    height: calc(100vh - 170px);
+    min-height: 450px;
+}
+#main_page .main_top>div{
+    width: 100%;;
 }
 #main_page .user{
   color: #fff;
   justify-content: flex-start;
   padding: 8px;
+  margin-top: 100px;
 }
 #main_page .user h2{
     line-height: 60px;
@@ -46,7 +48,6 @@
 }
 #main_page .main_wrap{
     flex-wrap: nowrap;
-    margin: 5px;
     margin-bottom: 15px;
 }
 #main_page .main_top .menu_wrap{
@@ -80,7 +81,6 @@
 }
 #main_page .main_bot{
     display: block;
-    min-height: 300px;
     margin: auto;
 }
 #main_page .main_bot .flex{
