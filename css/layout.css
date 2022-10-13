@@ -70,9 +70,11 @@
 }
 #main_page .main_top .menu_wrap.mm1, #main_page .main_top .menu_wrap.mm1:active{
     border-radius: 15px 0 0 15px;
+    height: 140px;
 }
 #main_page .main_top .menu_wrap.mm2, #main_page .main_top .menu_wrap.mm2:active{
     border-radius: 0 15px 15px 0;
+    height: 140px;
 }
 #main_page .main_top .menu_wrap .main_menu{
     width: 100%;
