@@ -4,7 +4,7 @@
     padding: 12px 8px;
     border-radius: 0 0 15px 15px;
     box-shadow: 0 8px 4px -4px #888;
-    height: calc(100vh - 170px);
+    height: calc(100vh - 300px);
     min-height: 450px;
 }
 #main_page .main_top>div{
@@ -89,6 +89,10 @@
     justify-content: space-around;
     text-align: center;
     padding: 10px;
+    min-height: 200px;
+}
+#main_page .main_bot .flex a{
+    margin: auto;
 }
 #main_page .main_bot .flex a img{
     margin-bottom: 10px;
