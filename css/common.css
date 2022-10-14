@@ -193,6 +193,16 @@ footer img{
 footer .flex{
   justify-content: space-around;
 }
+.footup{
+  position: fixed;
+  bottom: 0;
+  transition: .3s;
+}
+.footdown{
+  position: static;
+  bottom: -60px;
+  transition: .3s;
+}
 .flex{
   display: flex;
   flex-direction: row;
@@ -217,8 +227,8 @@ footer div{
   margin-bottom: 60px;
 }
 article>.inner{
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 55px;
+  margin-bottom: 20px;
 }
 .actbtn{
   position: relative;
