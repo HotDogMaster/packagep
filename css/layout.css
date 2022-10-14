@@ -4,7 +4,7 @@
     padding: 12px 8px;
     border-radius: 0 0 15px 15px;
     box-shadow: 0 8px 4px -4px #888;
-    height: calc(100vh - 200px);
+    height: 70vh;
     min-height: 400px;
 }
 #main_page .main_top>div{
@@ -49,6 +49,7 @@
 #main_page .main_wrap{
     flex-wrap: nowrap;
     margin-bottom: 15px;
+    height: 140px;
 }
 #main_page .main_top .menu_wrap{
     background-color: #fff;
@@ -84,6 +85,7 @@
 #main_page .main_bot{
     display: block;
     margin: auto;
+    height: 15vh;
 }
 #main_page .main_bot .flex{
     justify-content: space-around;
@@ -93,6 +95,7 @@
 }
 #main_page .main_bot .flex a{
     margin: auto;
+    height: 100%;
 }
 #main_page .main_bot .flex a img{
     margin-bottom: 10px;
