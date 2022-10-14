@@ -4,8 +4,7 @@
     padding: 12px 8px;
     border-radius: 0 0 15px 15px;
     box-shadow: 0 8px 4px -4px #888;
-    height: calc(100vh - 300px);
-    min-height: 450px;
+    height: calc(100vh - 200px);
 }
 #main_page .main_top>div{
     width: 100%;;
