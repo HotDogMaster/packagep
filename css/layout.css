@@ -338,6 +338,9 @@ a .user_pic:active{
     width: 100%;
     max-width: 350px;
 }
+.swipe, .line{
+    cursor: pointer;
+}
 article.center{
     text-align: center;
     margin-top: 0;
